@@ -1,0 +1,123 @@
+.vertical-center { margin: auto;position: absolute;top: 0; left: 0; bottom: 0; right: 0;width: 70%;height: 50%;  }
+
+/**
+ 项目全局css文件
+ */
+
+/*fix ajax loading 遮罩bug*/
+#loading{z-index: 100;}
+
+/*fixed和目前使用的模版css冲突*/
+.form-group{margin-bottom:8px;}
+.form-horizontal .checkbox, .form-horizontal .checkbox-inline, .form-horizontal .radio, .form-horizontal .radio-inline{padding-top: 0px;}
+.app_wauto_bnone{border:none;width:auto;}
+.app_vtc_align_baseline{vertical-align:baseline;}
+.app_mtpl_title{font-weight: bold;color:#000;padding-bottom: 5px;text-align: center;}
+.app_w100pct{width: 100% !important;}
+.form-horizontal .box-footer button{min-width: 75px;}
+.form-horizontal .box-footer button i{padding-right: 2px;}
+.app_label_pt9px{padding-top:9px !important;}
+/*移动端可以左右滑动*/
+.app_overflow_x_auto{overflow-x: auto;}
+#tags-table_wrapper .col-sm-12{overflow-x: auto;}
+
+.panel-primary {border-color: #3c8dbc;  }
+.panel-primary>.panel-heading {background-color: #3c8dbc;border-color: #3c8dbc;  }
+
+.alert{margin-top:5px;}
+.app_pad_btm5 {padding-bottom:5px;}
+a i.fa{padding-right:1px;}
+
+.input_inline{display:inline-block !important; vertical-align: middle;margin:0 5px;}
+.w_9pct{width:9%;}
+.w_15pct{width:15%;}
+.w_30pct{width:30%;}
+.w_60pct{width:60%;}
+.text-money { color: #f4645f;}
+
+/*fixed小屏幕*/
+#tags-table td:nth-last-child(1) a{display: inherit !important;}
+
+table.dataTable{ min-width: 100%;}
+
+/*tabs导航有关*/
+.main-header .logo .logo-lg{ text-align: left;}
+body{ background-color: transparent;}
+#app_body{height: 100%}
+.app-tabsbody-item{ height: 100%;}
+.app-iframe{ height: 100%;}
+.wrapper.layout{overflow: visible;}
+.wrapper.layout .content-wrapper{overflow: hidden;position: absolute;left: 0;right: 0;top: 0;bottom: 0;}
+
+.app-iframe {width: 100%;height: 100%;}
+.app-tabsbody-item{display: none;}
+.app-show{display: block;}
+.content-header.navTopBar{
+    position:fixed;
+    left: 230px;
+    right: 0;
+    top: 50px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+    background: #f7f7f7;
+    height:38px;
+    box-sizing: border-box;
+    padding: 0 15px;
+    z-index: 1;
+}
+.sidebar-collapse .content-header.navTopBar{
+    left: 50px;
+}
+.content-header.navTopBar+.content{
+    margin-top: 38px; 
+    background-color: #ecf0f5;
+    padding-top: 0;
+    position: absolute;
+    top: 50px;
+    bottom: 0; 
+    left: 230px;
+    right: 0;
+    overflow:hidden;
+}
+.sidebar-collapse .content-header.navTopBar+.content,.sidebar-expanded-on-hover .content-header.navTopBar+.content{
+    left: 50px;
+}
+.content{padding:15px 15px 0 15px; overflow: auto;}
+
+.navTopBar .nav-tabs{ border-bottom:none; display: flex; flex-direction: row; height: 100%; overflow: hidden; margin: 0 35px;}
+.navTopBar .nav-tabs>li{ margin-bottom: 0; float: none;}
+.navTopBar .nav-tabs>li+li{ margin-bottom: 0; float: none; margin-left: 2px;}
+.navTopBar .nav-tabs>li>a{ white-space: nowrap; font-size:12px;padding: 0 15px;height: 100%;display: flex;align-items: center;justify-content: center;border-bottom:none !important;border-top:none !important; border-radius:0; margin: 0;}
+.navTopBar .nav-tabs>li>a:hover{ border-bottom:none !important; border-top:none !important;}
+.navTopBar .nav-tabs>li .close{ float: none; outline:none; -webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+
+.navTopBar .control{ position: absolute; bottom: 0; width:35px; height: 38px; box-sizing: border-box;  display: flex; align-items: center; justify-content: center;}
+.navTopBar .control:before{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, .1);
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    line-height: 25px;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+.navTopBar .control:hover:before{
+    background-color: rgba(0, 0, 0, .4);
+}
+.navTopBar .control.disable{pointer-events: none;}
+.navTopBar .control.ltabs{left: 10px;}
+.navTopBar .control.rtabs{right: 10px;}
+
+@media (max-width: 767px){
+    .content-header.navTopBar{
+        top: 100px;
+        left: 0 !important;
+    }
+    .content-header.navTopBar+.content{
+        top: 100px;
+        left: 0 !important;
+    }
+}

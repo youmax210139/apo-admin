@@ -1,0 +1,3 @@
+git pull
+
+find ./ -user `whoami` \! -perm -g+w -exec chmod g+w {} \; 2> /dev/null

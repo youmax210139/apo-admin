@@ -1,0 +1,30 @@
+<?php
+return [
+    'time_type' => '周期类型',
+    'time_type_1' => '每日',
+    'time_type_2' => '半月',
+    'time_type_3' => '每月',
+    'time_type_4' => '每周',
+    'time_type_5' => '每小时',
+    'time_type_6' => '奖期',
+    'time_type_7' => '每注',
+    'condition_type' => '条件类型',
+    'condition_type_1' => '团队销量',
+    'condition_type_2' => '团队活跃人数',
+    'condition_type_3' => '团队销量+团队活跃',
+    'condition_type_4' => '团队盈亏',
+    'condition_type_5' => '团队销量+团队盈亏',
+    'condition_type_6' => '团队活跃+团队盈亏',
+    'condition_type_7' => '团队销量+团队活跃+团队盈亏',
+    'cardinal_type' => '基数类型',
+    'cardinal_type_1' => '销量',
+    'cardinal_type_4' => '亏损',
+    'status' => '状态',
+    'status_0' => '待审核',
+    'status_1' => '待发放',
+    'status_2' => '已发放',
+    'status_3' => '已拒绝',
+    'status_4' => '未达标',
+
+
+];
