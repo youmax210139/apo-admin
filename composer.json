@@ -31,11 +31,10 @@
             "App\\" : "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/",
-            "Service\\" : "./../service/"
         },
         "files" : [
             "app/Helpers/menu.php",
-            "./../service/Helpers/app.php"
+            "service/Helpers/app.php"
         ]
     },
     "autoload-dev" : {

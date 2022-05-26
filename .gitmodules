@@ -1,0 +1,4 @@
+[submodule "service"]
+	path = service
+	url = git@github.com:youmax210139/apo-service.git
+	branch = main
